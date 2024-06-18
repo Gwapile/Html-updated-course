@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gwapile Forms</title>
+</head>
+<body>
+     <form enctype="multipart/form-data">
+        <label for="uname">Username:</label>
+        <input type="text" id="uname" minlength="12" maxlength="15" required>
+
+<br>   <label for="pass">Password:</label>
+        <input type="password" id="pass" minlength="12" maxlength="15" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" minlength="12" maxlength="15" required>
+<br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" minlength="12" maxlength="15" required>
+        <br>
+        <label for="bday">Birthday</label>
+        <input type="date"> <br>
+
+        <label for="quantity">Quantity</label><!-------quantity-->
+        <input type="number" id="quantity" min="0" max="88"> <br>
+
+<label for="Mr.Gwapile">Mr.Gwapile</label>
+<input type="radio" id="Mr." value="Male">
+<label for="Ms.Gwapile">Ms.Gwapile</label>
+<input type="radio"  id="Ms." value="female">
+<label for="PHD">PHD.</label>  
+<input type="radio" id="PHD." name="title"> <br>
+
+<label for="pay">Payment</label> <!-----for payment drop down-->
+<select option>
+  <option value="visa">Visa</option>
+  <option value="Airtel">Airtel</option>
+  <option value="Vodacom">Vodacom</option>
+  <option value="Halotel">Halotel</option>
+</select>
+<br>
+
+<!------checkbox-->
+<label for="subscribe">Subscribe</label>
+<input type="checkbox" id="subscribe"> <br>
+
+<!-----textarea for comment-->
+<label for="comment">Comment</label>
+<textarea name="comment" id="comment" rows="5" cols="25"></textarea>
+<br>
+<label for="file">File</label>
+<input type="file" id="file" accept="images/jpg, images/png, images/jpeg"> <br>
+       <input type="reset">
+       <br>
+        <input type="submit">
+     </form>
+</body>
+</html>

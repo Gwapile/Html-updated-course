@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gwapile Pagination</title>
+    <style>
+        .pagination{
+text-align: center;
+        }
+        .pagination a{
+            color: none;
+            text-decoration: underline;
+            padding: 5px 5px;
+            display: inline-block;
+        }
+        .pagination a:hover{
+            background-color: aqua;
+        }
+        .pagination a.active{
+            background-color: green;
+            font-weight: bold;
+             border-radius: 5px;
+        }
+        .pagination a.hover:not(.active){
+         background-color: hsl(0, 0%, 77%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Gwapile Pagination</h1>
+
+    <pre> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Tenetur eius ut enim ab rerum quaerat similique exercitati
+         onem nam est error officiis cupiditate nobis, esse earum
+         facilis magni molestias accusamus saepe.</pre>
+         <div class="pagination">
+            <a href="">>1</a>
+            <a href="" class="active">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">></a>
+         </div>
+</body>
+</html>

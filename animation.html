@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html animation</title>
+    <style>
+        body{
+            background-color: rgb(6, 207, 23);
+        }
+        .box{
+            width: 250px;
+            height: 250px;
+            background-color: rgb(196, 10, 10);
+            font-size: 10em;
+            text-align: center;
+            /*animation-name: slideLeft;*/
+           /* animation-name: slideUp;*/
+           /*animation-name: slideDown;*/
+           /*animation-name: rotate;*/
+           /*animation-name: grow;*/
+           /*animation-name: shrink;*/
+           /*animation-name: fade;*/
+           /*animation-name: colorChange;*/
+           /*animation-name: glow;
+            animation-duration: 3s;*/
+            /*animation-iteration-count: infinite;*/
+            /*animation-direction: normal;*/
+            /*animation-play-state: running;*/
+            animation-timing-function: steps(5);
+        }
+        .box:hover{
+            animation-name: glow;
+            animation-duration: 3s;
+        }
+        /*@keyframes slideLeft{
+            from{transform: translateX(300%)}
+        }*/
+        /*@keyframes slideRight{
+            to{transform: translateX(300%)}
+        }*/
+        /*@keyframes slideUp{
+            from{transform: translateY(300%)}
+        }*/
+        /*@keyframes slideDown{
+            to{transform: translateY(300%)}
+        }*/
+        /*@keyframes rotate{
+            100%{transform: rotate(360deg);}
+        }*/
+        /*@keyframes rotate{
+            100%{transform: rotateY(360deg);}
+        }*/
+        /*@keyframes rotate{
+            100%{transform: rotatex(360deg);}
+        }*/
+        /*@keyframes rotate{
+            50%{transform: rotateZ(360deg);}
+        }*/
+       /* @keyframes grow{
+            70%{transform: scale(2,2);}
+        }*/
+        /*@keyframes shrink{
+            50%{transform: scale(0.5,0.5);}
+        }*/
+       /*@keyframes fade{
+            100%{transform: scale(0);}
+        }*/
+        @keyframes colorChange{
+            10%{background-color: blue;}
+            20%{background-color: rgba(6, 63, 168, 0.849);}
+            50%{background-color: rgba(185, 7, 141, 0.849);}
+            70%{background-color: rgba(20, 22, 1, 0.849);}
+            80%{background-color: rgba(0, 255, 157, 0.849);}
+            90%{background-color: rgba(123, 255, 0, 0.849);}
+        }
+        @keyframes glow{
+            50%{box-shadow: 0px 0px 50px hsl(rgb(216, 216, 13));}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        Hi
+    </div>
+</body>
+</html>
