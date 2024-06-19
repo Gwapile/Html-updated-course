@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gwapile Combinators</title>
+    <style>
+        .container-gwapile{
+            border:2px solid;
+        }
+        /*.container-gwapile p{
+             background-color: hsl(60, 100%, 70%);
+        }*/
+        /*.container-gwapile ~ p{
+        background-color: hsl(60, 100%, 70%);
+        }*/
+        .container-gwapile + p{
+            background-color: hsl(60, 100%, 70%);
+            }
+
+    </style>
+</head>
+<body>
+    <!------------
+        Combinators = explains the relation ship btn
+        listed selectors =
+        descendant
+        > = child 
+        ~ = general sibling
+        + = adjacent sibling /these  its the types of sibling
+    -->
+
+    <div class="container-gwapile">
+        <p>Gwapile</p>
+        <p>vencha</p>
+        <p>Student</p>
+        <div>
+            <p>I am Gwapile</p>
+        </div>
+    </div>
+    <p>Gwapile</p>
+        <p>vencha</p>
+</body>
+</html>
