@@ -1,0 +1,17 @@
+
+*{
+box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 73%, 4%);
+}
+.box{
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float:left;
+    text-align: center;
+background-color: hsl(0, 0%, 100%);
+    max-width: 75%;
+}
