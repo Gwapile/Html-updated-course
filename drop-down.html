@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gwapile drop down menu</title>
+    <style>
+        .drop-down button{
+            background-color: hsl(0, 13%, 95%);
+            color: #160808;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+
+        }
+        .drop-down a{
+            display: block;
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+
+        }
+        .drop-down .content-mn{
+            display: none;
+            background-color: hsl(0, 13%, 95%);
+            position: absolute;
+            min-width: 100px;
+            box-shadow: 2px 2px 5px hsla(0, 0%, 0%,0.8);
+        }
+        .drop-down:hover .content-mn{
+            display: block;
+        }
+        .drop-down:hover button{
+            background-color: hsl(0, 2%, 61%);
+        }
+    </style>
+</head>
+<body>
+    <div class="drop-down">
+        <button>Click to Gwapile</button>
+        <div class="content-mn">
+            <a href="">Home</a>
+            <a href="">Services</a>
+            <a href="">Abou Me</a>
+        </div>
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur
+         adipisicing elit. Laborum maxime obcaecati
+          aut facere cum dolores? Perspiciatis, incidunt,
+           sed numquam perferendis harum, in fuga similique error
+         atque ad eius odio facilis?</p>
+</body>
+</html>
