@@ -1,0 +1,34 @@
+a{
+    color: hsl(221, 100%, 74%);
+    text-decoration: none;
+}
+a:hover{
+    color: hsl(221, 100%, 86%);
+    font-size: 1.1em;
+}
+a:active{
+    font-size: 1.1em;
+    color: blue;
+}
+ul li{
+    list-style: none;
+}
+li:hover{
+    background-color: hsl(60, 100%, 72%);
+
+}
+li:not(:hover){
+    background-color: hsl(0, 2%, 86%);
+}
+/*
+li:nth-child(even){
+background-color: aqua;
+}*/
+/*
+li:nth-child(1){
+    background-color: aqua;
+    }*/
+    
+    li:nth-child(3n){
+        background-color: aqua;
+        }
